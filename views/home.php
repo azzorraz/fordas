@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>GTK Form</title>
-</head>
-<body>
+<h2>Dashboard</h2>
 
-<h1>Hello GTK Form 🚀</h1>
-
-</body>
-</html>
+<p>Database Connected 🚀</p>

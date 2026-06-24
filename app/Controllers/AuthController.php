@@ -13,13 +13,11 @@ class AuthController
 
             $user = User::findByUsername($username);
 
-            if (
-                $user &&
-                password_verify(
-                    $password,
-                    $user['password']
-                )
-            ) {
+            if (!$user['is_active']) {
+                $_SESSION['error'] =
+                    'Akun tidak aktif';
+                redirect('/login');
+            } {
 
                 $_SESSION['user'] = $user;
                 // echo "LOGIN BERHASIL";

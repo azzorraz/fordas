@@ -67,4 +67,29 @@ return [
     'method' => 'store'
     ],
 
+    '/user/edit' => [
+    'controller' => 'UserController',
+    'method' => 'edit'
+    ],
+
+    '/user/update' => [
+        'controller' => 'UserController',
+        'method' => 'update'
+    ],
+
+    '/user/reset-password' => [
+    'controller' => 'UserController',
+    'method' => 'resetPassword'
+    ],
+
+    '/user/update-password' => [
+        'controller' => 'UserController',
+        'method' => 'updatePassword'
+    ],
+
+    '/user/toggle-status' => [
+    'controller' => 'UserController',
+    'method' => 'toggleStatus'
+    ],
+
 ];

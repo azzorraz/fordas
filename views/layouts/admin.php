@@ -48,23 +48,23 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="#"
-                           class="nav-link">
-                            Master Sekolah
+                        <a href="<?= base_url('/sekolah') ?>" class="nav-link">
+                            <i class="nav-icon fas fa-school"></i>
+                            <p>Master Sekolah</p>
                         </a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#"
-                           class="nav-link">
-                            Master User
+                        <a href="<?= base_url('/user') ?>" class="nav-link">
+                            <i class="nav-icon fas fa-users"></i>
+                            <p>Master User</p>
                         </a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#"
-                           class="nav-link">
-                            Pengajuan
+                        <a href="<?= base_url('/jenis-pengajuan') ?>" class="nav-link">
+                            <i class="nav-icon fas fa-folder-open"></i>
+                            <p>Jenis Pengajuan</p>
                         </a>
                     </li>
 

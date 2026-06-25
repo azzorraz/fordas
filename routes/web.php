@@ -92,4 +92,34 @@ return [
     'method' => 'toggleStatus'
     ],
 
+    '/jenis-pengajuan' => [
+    'controller' => 'JenisPengajuanController',
+    'method' => 'index'
+    ],
+
+    '/jenis-pengajuan/create' => [
+    'controller' => 'JenisPengajuanController',
+    'method' => 'create'
+    ],
+
+    '/jenis-pengajuan/store' => [
+        'controller' => 'JenisPengajuanController',
+        'method' => 'store'
+    ],
+
+    '/jenis-pengajuan/edit' => [
+    'controller' => 'JenisPengajuanController',
+    'method' => 'edit'
+    ],
+
+    '/jenis-pengajuan/update' => [
+        'controller' => 'JenisPengajuanController',
+        'method' => 'update'
+    ],
+
+    '/jenis-pengajuan/toggle-status'=>[
+    'controller'=>'JenisPengajuanController',
+    'method'=>'toggleStatus'
+    ],
+
 ];
